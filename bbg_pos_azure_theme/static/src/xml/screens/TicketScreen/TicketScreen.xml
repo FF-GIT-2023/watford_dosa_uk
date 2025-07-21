@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.TicketScreen" t-inherit-mode="extension">
+        <xpath expr="//button[@class='button validation load-order-button w-100 btn btn-lg btn-primary rounded-0 fw-bolder py-3']/span"
+               position="replace">
+                <span class="fs-1 d-block">Confirm Order</span>
+        </xpath>
+    </t>
+</templates>

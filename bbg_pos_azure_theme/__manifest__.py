@@ -30,6 +30,7 @@
       ('prepend', 'bbg_pos_azure_theme/static/src/css/azure_theme_assets.css'),
       'bbg_pos_azure_theme/static/src/css/azure_theme.css',
       'bbg_pos_azure_theme/static/src/xml/screens/ProductScreen/ProductScreen.xml',
+      'bbg_pos_azure_theme/static/src/xml/screens/TicketScreen/TicketScreen.xml',
     ],
   },
   

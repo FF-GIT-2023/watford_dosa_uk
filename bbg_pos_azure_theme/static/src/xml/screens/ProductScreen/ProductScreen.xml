@@ -5,6 +5,10 @@
         <xpath expr="//OrderWidget/t[@t-set-slot='details']/button[hasclass('book-table')]" position="replace"/>
     </t>
 
+    <t t-inherit="point_of_sale.CustomerButton" t-inherit-mode="extension">
+        <xpath expr="//div[@class='control-button customer-button btn rounded-0 fw-bolder text-truncate']" position="replace"/>
+    </t>
+
     <t t-inherit="point_of_sale.OrderlineCustomerNoteButton" t-inherit-mode="extension">
         <xpath expr="//button[@class='control-button btn btn-light rounded-0 fw-bolder']" position="replace"/>
     </t>
@@ -23,6 +27,10 @@
 
     <t t-inherit="pos_restaurant.SplitBillButton" t-inherit-mode="extension">
         <xpath expr="//span[@class='control-button order-split btn btn-light rounded-0 fw-bolder']" position="replace"/>
+    </t>
+
+    <t t-inherit="pos_restaurant.TableGuestsButton" t-inherit-mode="extension">
+        <xpath expr="//button[@class='control-button btn btn-light rounded-0 fw-bolder']" position="replace"/>
     </t>
 
 </templates>
